@@ -1,0 +1,41 @@
+
+h3 {
+	font-size:14px;			
+	width:660px;			
+	padding:0px 0px;		
+	background-color:#003399;		
+	color:#ffffff;			
+	border-radius:3px;
+	text-align:center;
+}
+
+
+.mainly {
+font-size:110px;
+text-align:center;
+width:660px;
+
+    
+}
+#time{
+	font-size:80px;
+	text-align:center;
+	width:660px;
+}
+
+
+#start{
+font-size:40px;
+    
+}
+
+
+#stop{
+font-size:40px;
+    
+}
+
+
+#reset{
+font-size:40px;
+}
