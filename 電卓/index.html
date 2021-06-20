@@ -1,0 +1,64 @@
+   <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="main.css">
+        
+        <title>電卓</title>
+      </head>
+ 
+      <body>
+          <table>
+          <tr></td>
+          <input type="text" id="result"readonly style=text-align:right;width:100px;>
+          <input type=text id="operator" style=width:0px;>
+           <input type="button" value="C" onclick=clrAll()> 
+          
+           
+          </tr></td>
+          
+          <tr><td>
+              <input type="button" value="7" onclick=num(7)>
+              <input type="button" value="8" onclick=num(8)>
+              <input type="button" value="9" onclick=num(9)>
+              <input type="button" value="+" onclick=kigou("+")>
+             
+              </tr></td>
+<tr><td>
+              <input type="button" value="4" onclick=num(4)>
+              <input type="button" value="5" onclick=num(5)>
+              <input type="button" value="6" onclick=num(6)>
+              <input type="button" value="-" onclick=kigou("-") style=width:32px;>
+              </tr></td>
+         <tr><td>
+              
+              <input type="button" value="1" onclick=num(1)>
+              <input type="button" value="2" onclick=num(2)>
+              <input type="button" value="3" onclick=num(3)>
+              <input type="button" value="*" onclick=kigou("*") style=width:32px;>
+              
+              </tr><td>
+        <tr><td>
+               <input type="button" value="0" onclick=num(0) style=width:49px;>
+                <input type="button" value="." onclick=num(".") >
+               
+               <input type="button" value="/" onclick=kigou("/")>
+               
+               <input type="button" value="=" onclick=equal()>
+               </tr></td>
+               
+              
+               </table>
+
+               
+ 
+              
+             
+        
+         <script src="main.js"></script>
+	
+         
+        </body>
+              
+       
